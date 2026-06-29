@@ -1,10 +1,10 @@
 const teamMembers = [
   {
-    name: 'Alex Morgan',
+    name: 'Neeraj Saini',
     role: 'Project Lead',
     skills: ['UX design', 'JavaScript', 'Team planning'],
-    github: 'https://github.com/pulse-agency',
-    photo: 'assets/team/member-1.svg',
+    github: 'https://github.com/62fpsgaming-hue',
+    photo: 'assets/team/neeraj.png',
   },
   {
     name: 'Jiya Patel',
@@ -26,13 +26,6 @@ const teamMembers = [
     skills: ['Copywriting', 'Research', 'Brand voice'],
     github: 'https://github.com/pulse-agency',
     photo: 'assets/team/member-4.svg',
-  },
-  {
-    name: 'Omar Ali',
-    role: 'QA & Support',
-    skills: ['Testing', 'Documentation', 'Feedback'],
-    github: 'https://github.com/pulse-agency',
-    photo: 'assets/team/member-5.svg',
   },
 ];
 
