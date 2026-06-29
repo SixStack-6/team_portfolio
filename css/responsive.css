@@ -1,0 +1,55 @@
+@media (max-width: 980px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image {
+    order: -1;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-inner {
+    gap: 0.5rem;
+  }
+
+  .header-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .theme-toggle,
+  .menu-toggle {
+    width: auto;
+    padding: 0.75rem 0.95rem;
+  }
+
+  .hero-copy p,
+  .section-header p {
+    font-size: 0.98rem;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .member-card,
+  .project-card,
+  .contact-card,
+  .about-card,
+  .contact-form {
+    padding: 1.25rem;
+  }
+}

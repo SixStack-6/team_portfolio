@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SixStack-6</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo">Pulse Agency</a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#team" class="nav-link">Team</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle">Dark mode</button>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <span class="eyebrow">Creative Team Portfolio</span>
+          <h1>Pulse Agency</h1>
+          <p>We are a student team building polished web products with thoughtful design and clean code.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Us</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/images/hero-illustration.svg" alt="Team planning illustration" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container section-header">
+        <h2>About the Team</h2>
+        <p>We are five students working together to deliver modern user experiences, strong problem solving, and polished interfaces.</p>
+      </div>
+      <div class="container about-grid">
+        <div class="about-card">
+          <h3>Who we are</h3>
+          <p>Our team brings together web design, front-end development, product thinking, and analytics to build projects that showcase our skills.</p>
+        </div>
+        <div class="about-card">
+          <h3>What we do</h3>
+          <p>We create interactive applications, clean layouts, and responsive experiences using only HTML, CSS, and JavaScript.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team" id="team">
+      <div class="container section-header">
+        <h2>Team Members</h2>
+        <p>Meet our group of creative minds and technical builders.</p>
+      </div>
+      <div class="container cards-grid" id="teamCards"></div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container section-header">
+        <h2>Projects Showcase</h2>
+        <p>Five student projects built to demonstrate our skills in web applications and interfaces.</p>
+      </div>
+      <div class="container cards-grid" id="projectCards"></div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container section-header">
+        <h2>Skills</h2>
+        <p>We are strong in core web development, UI design, teamwork, and learning new tools quickly.</p>
+      </div>
+      <div class="container skill-list">
+        <span class="skill-pill">HTML5</span>
+        <span class="skill-pill">CSS3</span>
+        <span class="skill-pill">JavaScript</span>
+        <span class="skill-pill">Responsive Design</span>
+        <span class="skill-pill">GitHub</span>
+        <span class="skill-pill">Project Planning</span>
+        <span class="skill-pill">User Experience</span>
+        <span class="skill-pill">Visual Design</span>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container section-header">
+        <h2>Contact Us</h2>
+        <p>Send us a message and we will reply with our availability and next steps.</p>
+      </div>
+      <div class="container contact-grid">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" />
+            <p class="error-message" id="nameError"></p>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email" />
+            <p class="error-message" id="emailError"></p>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your project"></textarea>
+            <p class="error-message" id="messageError"></p>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+        <div class="contact-info">
+          <div class="contact-card">
+            <h3>Location</h3>
+            <p>College campus, room 204</p>
+          </div>
+          <div class="contact-card">
+            <h3>Team Lead</h3>
+            <p>Alex Morgan</p>
+          </div>
+          <div class="contact-card">
+            <h3>GitHub</h3>
+            <p>@pulse-agency</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Pulse Agency. Built by a student team.</p>
+      <p>Designed with HTML, CSS, and Vanilla JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

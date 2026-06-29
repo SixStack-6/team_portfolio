@@ -1,0 +1,45 @@
+:root {
+  color-scheme: light;
+}
+
+body.dark {
+  --bg: #0f172a;
+  --surface: #111827;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  --primary: #60a5fa;
+  --primary-strong: #3b82f6;
+  --border: #293246;
+  --shadow: 0 18px 50px rgba(15, 23, 42, 0.45);
+}
+
+body.dark .hero {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+body.dark .btn-secondary {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+body.dark .about-card,
+body.dark .project-card,
+body.dark .member-card,
+body.dark .contact-card,
+body.dark .contact-form {
+  background: #111827;
+}
+
+body.dark .skill-pill {
+  background: #1e293b;
+  color: #bfdbfe;
+}
+
+body.dark .project-tag {
+  background: #1e293b;
+}
+
+body.dark .form-group input,
+body.dark .form-group textarea {
+  background: #0f172a;
+  border-color: #293246;
+}
