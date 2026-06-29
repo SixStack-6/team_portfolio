@@ -41,7 +41,7 @@ team-agency-portfolio/
 │   ├── data.js
 │   ├── render.js
 │   ├── contact.js
-│   └── theme.js
+│   └── app.js
 │
 ├── assets/
 │   ├── images/
