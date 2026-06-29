@@ -1,4 +1,5 @@
 :root {
+  /* Core color tokens used across the full site */
   --bg: #ffffff;
   --surface: #ffffff;
   --surface-soft: #eef4ff;
@@ -55,6 +56,7 @@ button {
 }
 
 .site-header {
+  /* Sticky header with light surface */
   background: rgba(255, 255, 255, 0.95);
   border-bottom: 1px solid rgba(15, 23, 42, 0.08);
   backdrop-filter: blur(18px);
@@ -78,6 +80,7 @@ button {
 }
 
 .main-nav {
+  /* Pills-style nav container */
   display: flex;
   align-items: center;
   gap: 0.35rem;
@@ -88,6 +91,7 @@ button {
 }
 
 .nav-link {
+  /* Individual navigation buttons */
   color: #334155;
   font-size: 0.95rem;
   font-weight: 600;
@@ -123,6 +127,7 @@ button {
 }
 
 .main-nav.active {
+  /* Expanded mobile menu state */
   display: grid;
   gap: 1rem;
   padding: 1rem 0;
@@ -131,6 +136,7 @@ button {
 }
 
 .hero {
+  /* Large landing section that fills the first screen */
   min-height: 85vh;
   display: flex;
   align-items: center;
@@ -139,6 +145,7 @@ button {
 }
 
 .hero-content {
+  /* Two-column hero layout */
   display: grid;
   max-width: 1280px;
   margin: 0 auto;
@@ -159,6 +166,7 @@ button {
 }
 
 .hero-copy h1 {
+  /* Main headline sizing */
   font-size: clamp(3.8rem, 6vw, 5.8rem);
   line-height: 1.05;
   font-weight: 800;
@@ -209,6 +217,7 @@ button {
 }
 
 .hero-image {
+  /* Align the illustration to the right on large screens */
   display: flex;
   justify-content: flex-end;
 }
@@ -220,6 +229,7 @@ button {
 }
 
 .section {
+  /* Consistent vertical spacing for all sections */
   padding: 90px 0;
 }
 
@@ -255,6 +265,7 @@ button {
 .project-card,
 .member-card,
 .contact-card {
+  /* Shared card surface treatment */
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 24px;
@@ -337,6 +348,7 @@ button {
 .about-card,
 .contact-card,
 .contact-form {
+  /* Reveal animation baseline state */
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.7s ease, transform 0.7s ease;
@@ -350,6 +362,7 @@ button {
 .about-card.visible,
 .contact-card.visible,
 .contact-form.visible {
+  /* Reveal animation active state */
   opacity: 1;
   transform: translateY(0);
 }

@@ -1,3 +1,4 @@
+// Team member data used to build profile cards on page load.
 const teamMembers = [
   {
     name: 'Neeraj Saini',
@@ -29,6 +30,7 @@ const teamMembers = [
   },
 ];
 
+// Project data used to build the portfolio showcase section.
 const projects = [
   {
     title: 'Quiz App',

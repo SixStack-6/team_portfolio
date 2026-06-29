@@ -1,13 +1,16 @@
+// Form fields and message containers.
 const contactForm = document.getElementById('contactForm');
 const nameError = document.getElementById('nameError');
 const emailError = document.getElementById('emailError');
 const messageError = document.getElementById('messageError');
 const formStatus = document.getElementById('formStatus');
 
+// Basic email format check.
 function isEmailValid(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
+// Clear any previous validation messages.
 function clearErrors() {
   nameError.textContent = '';
   emailError.textContent = '';
@@ -15,6 +18,7 @@ function clearErrors() {
   formStatus.textContent = '';
 }
 
+// Validate required fields and show inline errors.
 function checkForm() {
   let valid = true;
   const name = contactForm.name.value.trim();
@@ -39,6 +43,7 @@ function checkForm() {
   return valid;
 }
 
+// Handle form submission locally without a backend.
 contactForm?.addEventListener('submit', (event) => {
   event.preventDefault();
   if (checkForm()) {
