@@ -34,6 +34,7 @@ team-agency-portfolio/
 │
 ├── css/
 │   ├── style.css
+│   ├── theme.css
 │   └── responsive.css
 │
 ├── js/
