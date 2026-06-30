@@ -26,7 +26,7 @@ const teamMembers = [
     role: 'Frontend Developer',
     skills: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/ShrutiNOVA',
-    photo: 'assets/team/WhatsAppImage2026-03-17at22.22.21.jpeg',
+    photo: 'assets/team/shruti.jpeg',
   },
 ];
 
