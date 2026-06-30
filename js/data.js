@@ -19,7 +19,7 @@ const teamMembers = [
     role: 'Frontend Developer',
     skills: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/Dhrumil1306',
-    photo: 'assets/team/member-3.svg',
+    photo: 'assets/team/Dhrumil.jpeg',
   },
   {
     name: 'Maya Chen',
