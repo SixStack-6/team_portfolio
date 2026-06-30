@@ -12,7 +12,7 @@ const teamMembers = [
     role: 'Frontend Developer',
     skills: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/Chethan-Sai-M',
-    photo: 'assets/team/member-2.svg',
+    photo: 'assets/team/Chethan_Sai.jpeg',
   },
   {
     name: 'Dhrumil Selarka',
