@@ -2,29 +2,29 @@
 const teamMembers = [
   {
     name: 'Neeraj Saini',
-    role: 'Frontend-Developer',
-    skills: ['HTML','CSS','JavaScript],
+    role: 'Frontend Developer',
+    skills: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/62fpsgaming-hue',
     photo: 'assets/team/neeraj.png',
   },
   {
     name: 'Chethan Sai M',
-    role: 'Frontend-Developer',
-    skills: ['HTML','CSS','JavaScript],
+    role: 'Frontend Developer',
+    skills: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/Chethan-Sai-M',
     photo: 'assets/team/member-2.svg',
   },
   {
     name: 'Rohan Singh',
-    role: 'Frontend-Developer',
-    skills: ['HTML','CSS','JavaScript],
+    role: 'Frontend Developer',
+    skills: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/pulse-agency',
     photo: 'assets/team/member-3.svg',
   },
   {
     name: 'Maya Chen',
-    role: 'Frontend-Developer',
-    skills: ['HTML','CSS','JavaScript],
+    role: 'Frontend Developer',
+    skills: ['HTML', 'CSS', 'JavaScript'],
     github: 'https://github.com/pulse-agency',
     photo: 'assets/team/member-4.svg',
   },
@@ -59,7 +59,7 @@ const projects = [
   {
     title: 'GitHub Developer Explorer',
     description: 'Search GitHub users and view profiles with repositories and stats.',
-    technologies: ['Fetch API', 'JavaScript', 'UI cards'],
+    technologies: ['Fetch API', 'JavaScript', 'UI Cards'],
     image: 'assets/images/project-github.svg',
     live: 'https://git-hub-profile-repo-explorer.vercel.app',
     repo: 'https://github.com/SixStack-6/GitHub-Profile-Repo-Explorer.git',
@@ -67,9 +67,9 @@ const projects = [
   {
     title: 'Kanban Board',
     description: 'A task board interface for planning work and tracking progress.',
-    technologies: ['Drag/drop', 'JavaScript', 'Project workflow'],
+    technologies: ['Drag & Drop', 'JavaScript', 'Project Workflow'],
     image: 'assets/images/project-kanban.svg',
     live: 'https://kanban-task-board-three-liart.vercel.app',
-    repo: 'https://github.com/SixStack-6/Kanban-Task-Board.git,
+    repo: 'https://github.com/SixStack-6/Kanban-Task-Board.git',
   },
 ];
