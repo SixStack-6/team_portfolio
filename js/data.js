@@ -15,10 +15,10 @@ const teamMembers = [
     photo: 'assets/team/member-2.svg',
   },
   {
-    name: 'Rohan Singh',
+    name: 'Dhrumil Selarka',
     role: 'Frontend Developer',
     skills: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/pulse-agency',
+    github: 'https://github.com/Dhrumil1306',
     photo: 'assets/team/member-3.svg',
   },
   {
