@@ -22,10 +22,10 @@ const teamMembers = [
     photo: 'assets/team/Dhrumil.jpeg',
   },
   {
-    name: 'Maya Chen',
+    name: 'Shruti singh',
     role: 'Frontend Developer',
     skills: ['HTML', 'CSS', 'JavaScript'],
-    github: 'https://github.com/pulse-agency',
+    github: 'https://github.com/ShrutiNOVA',
     photo: 'assets/team/member-4.svg',
   },
 ];
